@@ -7,7 +7,7 @@ const depthMeasurements: number[] = fs
   .map(Number);
 
 /**
- * Day 1
+ * Part 1
  */
 const countIncreases = (measurements: number[]) => {
   let count = 0;
@@ -23,7 +23,7 @@ const countIncreases = (measurements: number[]) => {
 console.log(countIncreases(depthMeasurements));
 
 /**
- * Day 2
+ * Part 2
  */
 const sumOfChunks: number[] = depthMeasurements
   .map((m, i) => [m, depthMeasurements[i + 1], depthMeasurements[i + 2]])

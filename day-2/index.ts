@@ -10,7 +10,7 @@ const instructions: Array<Command> = fs
   .map((e) => [e[0], Number(e[1])]);
 
 /**
- * Day 1
+ * Part 1
  */
 const position = { x: 0, depth: 0, aim: 0 };
 
@@ -31,7 +31,7 @@ for (let [dir, steps] of instructions) {
 console.log(position.x * position.depth);
 
 /**
- * Day 2
+ * Part 2
  */
 position.x = 0;
 position.depth = 0;
