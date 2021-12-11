@@ -1,4 +1,4 @@
-import fs from "fs";
+import * as fs from "fs";
 
 const depthMeasurements: number[] = fs
   .readFileSync(`${__dirname}/input.txt`, "utf-8")

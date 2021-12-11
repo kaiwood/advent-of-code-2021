@@ -1,4 +1,4 @@
-import fs from "fs";
+import * as fs from "fs";
 
 const data: number[] = fs
   .readFileSync(`${__dirname}/input.txt`, "utf-8")
